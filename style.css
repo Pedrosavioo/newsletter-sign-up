@@ -1,0 +1,73 @@
+/* font */
+@font-face {
+    font-family: roboto-bold;
+    src: url(assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(assets/fonts/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+section h1 {
+    font-family: roboto-bold;
+}
+
+section p {
+    font-family: roboto-regular;
+    margin-top: 1rem;
+}
+
+section li {
+    font-family: roboto-regular;
+    margin-left: 2rem;
+    list-style: none;
+    
+}
+
+#email {
+    margin-top: 0.5rem;
+}
+
+.button-subscribe {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* boot css */
+.mt-1 {
+    margin-top: 1rem;
+}
+
+.mt-2 {
+    margin-top: 2rem;
+}
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
+}
+
+.txt-center {
+    text-align: center;
+}
