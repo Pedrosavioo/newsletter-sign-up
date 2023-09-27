@@ -102,6 +102,8 @@ main div p {
     height: 3rem;
     color: var(--White);
     font-weight: 700;
+    border: 1px solid --dark-slide;
+    border-radius: 1rem;
     background: var(--dark-slide);
 }
 
