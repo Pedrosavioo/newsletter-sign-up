@@ -112,8 +112,12 @@ aside img {
     padding: 1rem;
 }
 
+.img-mobile{
+    display: none;
+}
+
 /* media queries*/
-@media (max-width: 375px) {
+@media (max-width: 700px) {
     body {
         display: block;
     }
@@ -121,16 +125,21 @@ aside img {
     .container {
         height: 100vh;
         flex-direction: column-reverse;
+        justify-content: left;
         gap: 0;
-    }
-
-    main {
-        
     }
 
     aside img {
         padding: 0;
-        max-width: 100%;
+        width: 100%;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .img-desktop{
+        display: none;
     }
 }
 
