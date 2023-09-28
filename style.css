@@ -56,6 +56,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 1rem;
 }
 
 main h1 {
@@ -107,16 +108,31 @@ main div p {
     background: var(--dark-slide);
 }
 
+aside img {
+    padding: 1rem;
+}
 
+/* media queries*/
+@media (max-width: 375px) {
+    body {
+        display: block;
+    }
 
+    .container {
+        height: 100vh;
+        flex-direction: column-reverse;
+        gap: 0;
+    }
 
+    main {
+        
+    }
 
-
-
-
-
-
-
+    aside img {
+        padding: 0;
+        max-width: 100%;
+    }
+}
 
 
 /* boot css */
