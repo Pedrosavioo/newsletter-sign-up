@@ -67,7 +67,10 @@ main h1 {
 
 main p {
     font-family: roboto-regular;
-    margin-top: 1rem;
+}
+
+main ul {
+    margin: 2rem 0;
 }
 
 main li {
@@ -123,10 +126,14 @@ aside img {
     }
 
     .container {
-        height: 100vh;
+        height: 100%;
         flex-direction: column-reverse;
         justify-content: left;
         gap: 0;
+    }
+
+    main ul {
+        margin: 1rem 0;
     }
 
     aside img {
