@@ -27,7 +27,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    font-family: roboto-regular;
+    font-family: roboto-bold;
 }
 
 .container {
@@ -107,19 +107,17 @@ aside img {
 
 /* sign-up */
 #sign-up {
-    background: #a35656;
-    padding: 1rem;  
-
-    display: ;
+    padding: 1rem;
 }
 
 #sign-up h1 {
     font-size: 3rem;
+    font-weight: bold;
 }
 
 #sign-up p {
-    font-weight: 400;
-    margin-top: 0.3rem;
+    color: rgba(0, 0, 0, .6);
+    line-height: 1.5rem;
 }
 
 #sign-up img{
@@ -131,7 +129,7 @@ aside img {
     height: 3rem;
     color: var(--White);
     font-weight: 700;
-    border: 1px solid --dark-slide;
+    border: 0.5px solid --dark-slide;
     border-radius: 0.5rem;
     background: var(--dark-slide);
 }
@@ -164,6 +162,17 @@ aside img {
 
     .img-desktop{
         display: none;
+    }
+
+    #sign-up{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #sign-up div {
+        margin-top: 3rem;
     }
 }
 
