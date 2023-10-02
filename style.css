@@ -30,6 +30,10 @@ body {
     font-family: roboto-bold;
 }
 
+.hide{
+    display: none;
+}
+
 .container {
     display: flex;
     gap: 5rem;
@@ -163,16 +167,14 @@ aside img {
     .img-desktop{
         display: none;
     }
-
-    #sign-up{
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    
+    #sign-up div {
+        margin-top: 30%;
     }
 
-    #sign-up div {
-        margin-top: 3rem;
+    #sign-up button{
+        width: 100%;
+        margin: 43vh auto 0 auto;
     }
 }
 
