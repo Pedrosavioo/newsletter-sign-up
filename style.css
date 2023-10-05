@@ -14,8 +14,6 @@
     --grey: hsl(231, 7%, 60%);
     --White: hsl(0, 0%, 100%);
     --dark-slide:  hsl(238, 26%, 21%);
-
-    tcolor: hsl(5, 100%, 84%);
 }
 
 * {
@@ -87,7 +85,7 @@ form #p_adj {
 }
 
 p#error {
-    font-weight: 400;
+    font-size: 14px;
     color: var(--tomato);
 }
 
