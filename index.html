@@ -31,9 +31,14 @@
       </ul>
   
       <div>
-        <p>Email address</p>
-        <input type="email" name="email" id="email" placeholder="email@company.com">
-        <button class="button-subscribe mt-1">Subscribe to monthly newsletter</button>
+          <form action="">
+            <div id="p_adj">
+              <p>Email address</p>
+              <p id="error" class="hide">valid email required</p>
+            </div>
+            <input type="email" name="email" id="email" placeholder="email@company.com">
+              <input type="submit" class="button-subscribe" value="Subscribe to monthly newsletter">
+          </form>
       </div>
     </main>
   
@@ -43,18 +48,18 @@
       <img src="assets/images/illustration-sign-up-desktop.svg" alt="illustration sign up" class="img-desktop">
       <img src="assets/images/illustration-sign-up-mobile.svg" alt="illustration sign up" class="img-mobile">
     </aside>
-    
   </div>
 
+  <!-- sign up email -->
   <div id="sign-up" class="hide">
-
-      <div> 
+    <div> 
       <img src="assets/images/icon-list.svg">
       <h1 class="mt-2">Thanks for <br> subscribing!</h1>
-      <p class="mt-1">A confirmation email has been sent to <br> <strong>ash@loremcompany.com.</strong> Please open it and click <br> the button inside to confirm your subscription.</p>
+      <p class="mt-1">A confirmation email has been sent to <br> <span class="email-entered">ash@loremcompany.com</span>. Please open it and click <br> the button inside to confirm your subscription.</p>
     </div>
     <button class="mt-2 mb-2" id="dismiss-message">Dismiss message</button>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
